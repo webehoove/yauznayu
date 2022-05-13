@@ -7986,7 +7986,7 @@ input, select, textarea {
 			}
 
 		.items.style2.medium > * {
-			padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem ;
+			padding: 1rem 1rem 0.1875rem 1rem ;
 			width: 33.33333%;
 		}
 
@@ -8417,7 +8417,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: rgba(255, 255, 255, 0.2);
+				border-bottom-color: rgba(255, 255, 255, 0.1);
 			}
 
 			#wrapper > .invert .box {
@@ -8675,11 +8675,11 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert .items.style2 {
-				border-color: white;
+				border-color: #6C8096;
 			}
 
 				#wrapper > .invert .items.style2 > * {
-					border-color: white;
+					border-color: #6C8096;
 				}
 
 			#wrapper > .invert .index > * {
