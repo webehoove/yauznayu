@@ -8420,7 +8420,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: rgba(255, 255, 255, 0.1);
+				border-bottom-color: rgba(255, 255, 255, 0.35);
 			}
 
 			#wrapper > .invert .box {
@@ -8686,7 +8686,7 @@ input, select, textarea {
 				}
 
 			#wrapper > .invert .index > * {
-				border-top-color: rgba(255, 255, 255, 0.2);
+				border-top-color: rgba(255, 255, 255, 0.35);
 			}
 
 		#wrapper > .color1 {
