@@ -182,7 +182,7 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out;
 		text-decoration: none;
 		padding-bottom: 0.1rem;
-		border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 	}
 
 		a:hover {
@@ -8405,11 +8405,11 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert a {
-				color: rgba(255, 255, 255, 1);
-				border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+				color: rgba(255, 255, 255, 0.6);
+				border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 			}
 				#wrapper > .invert a:hover {
-					color:rgba(255, 255, 255, 0.55);
+					color:rgba(255, 255, 255, 1);
 					border-bottom: none;
 				}
 
@@ -8698,7 +8698,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: rgba(54, 172, 167, 1);
+			background-color: rgba(54, 172, 167, 0.3);
 		}
 
 		#wrapper > .color2 {
