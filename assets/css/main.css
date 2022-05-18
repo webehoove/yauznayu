@@ -4335,16 +4335,36 @@ input, select, textarea {
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
+			-ms-overflow-style: none;
 			flex-shrink: 0;
 			position: absolute;
 			width: 100%;
 			height: 100%;
+			overflow: hidden;
 			top: 0;
 			left: 0;
 			opacity: 1;
 		}
 
 			.banner.style5 .image img {
+				-moz-object-fit: cover;
+				-webkit-object-fit: cover;
+				-ms-object-fit: cover;
+				object-fit: cover;
+				-moz-object-position: center;
+				-webkit-object-position: center;
+				-ms-object-position: center;
+				object-position: center;
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border-radius: 0;
+			}
+			
+			.banner.style5 .image video {
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
@@ -8698,7 +8718,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: rgba(54, 172, 167, 0.3);
+			background-color: rgba(54, 172, 167, 1);
 		}
 
 		#wrapper > .color2 {
