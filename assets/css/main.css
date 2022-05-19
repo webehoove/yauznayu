@@ -2740,6 +2740,11 @@ input, select, textarea {
 			list-style: none;
 			padding-left: 0;
 		}
+		
+		ul.alt.gotop {
+			float: right;
+			text-align: center;
+		}
 
 			ul.alt li {
 				padding: 0 0 0.35rem 0;
@@ -2887,6 +2892,10 @@ input, select, textarea {
 					text-align: center;
 					width: 50%;
 				}
+				
+				ul.alt.gotop {
+			        float: left;
+		        }
 
 					ul.actions:not(.fixed) li > * {
 						width: 100%;
