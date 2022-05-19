@@ -7371,14 +7371,11 @@ input, select, textarea {
 /* Wrapper (style2) */
 
 	.wrapper.style2 {
-		padding: 7rem;
 		background-color: #eeeeee;
 	}
 
 		.wrapper.style2 > .inner {
-			padding: 5.25rem 3.5rem 3.25rem 3.5rem ;
-			background-color: #ffffff;
-			border-radius: 0.5rem;
+			padding: 3.25rem 3.5rem 3.25rem 3.5rem ;
 			margin: 0 auto;
 			max-width: 100%;
 			position: relative;
@@ -7443,11 +7440,7 @@ input, select, textarea {
 		}
 
 	#wrapper > .wrapper.style2.invert:not(.color1):not(.color2):not(.color3):not(.color4):not(.color5):not(.color6):not(.color7) {
-		background-color: #222222;
-	}
-
-	#wrapper > .wrapper.style2.invert > .inner {
-		background-color: #000000;
+		background-color: #101010;
 	}
 
 /* Items (transitions) */
@@ -8435,7 +8428,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert a {
-				color: rgba(255, 255, 255, 0.6);
+				color: rgba(255, 255, 255, 0.7);
 				border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 			}
 				#wrapper > .invert a:hover {
