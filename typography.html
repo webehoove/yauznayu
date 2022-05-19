@@ -71,6 +71,7 @@
 												<li><a href="#font_headlines" class="smooth-scroll">Заголовки</a></li>
 												<li><a href="#font_body_copy" class="smooth-scroll">Основной шрифт</a></li>
                                                 <li><a href="#font_supporting_fonts" class="smooth-scroll">Вспомогательные шрифты</a></li>
+                                                <li><a href="#font_web" class="smooth-scroll">Шрифт для Web</a></li>
                                                 <li><a href="#font_usage" class="smooth-scroll">Применение</a></li>
                                                 <li><a href="#font_sizes" class="smooth-scroll">Размеры</a></li>
 											</ul>
@@ -80,25 +81,6 @@
                                             <span class="image fit"><img src="images/artos_font.png" alt="Artos Design System"></span>
                                             <p>Artos Sans доступен в четырех вариантах начертания: Light, Regular, Medium и Black.<br><br>
                                             Каждый из четырех весов имеет свою собственную функциональность и использование, а это означает, что учитываются заголовки, основной текст и вспомогательные типографские детали. С этими доступными параметрами легко общаться четко во всех типах приложений, от больших сообщений до небольших, более информативных текстов.<br><br>                                            Очевидный контраст между весами обеспечивает четкое определение между ними и означает, что при необходимости легко достичь типографской иерархии.</p>
-                                            <pre><code>
-@font-face {
-  font-family: 'Artos-Light';
-  src: url(Artos-Light.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Artos-Regular';
-  src: url(Artos-Regular.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Artos-Medium';
-  src: url(Artos-Medium.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Artos-Black';
-  src: url(Artos-Black.woff2) format('woff2');
-}
-                                            </code></pre>
-                                            <p>Для вебсайта и цифровых материалов всегда применяется формат WOFF2.</p>
 
 										</div>
 									</section>
@@ -145,6 +127,97 @@
 
 										</div>
 								    </section>
+                                    
+                           </div>
+                        </div>
+					</section>
+                    
+                <!-- Font for Web -->
+					<section class="wrapper style1 color3 align-left" id="font_web">
+						<div class="inner">
+                            <h1>Шрифт для Web</h1>
+							<h4 class="text_block">Фирменный шрифт Artos Sans подключается к цифровым материалам в формате WOFF. Для наилучшего его отображения необходимо правильно выставить значения расстояния между буквами и строками.</h4>
+							<div class="index align-left">
+
+								<!-- Format -->
+									<section>
+										<header>
+											<h3>Формат</h3>
+										</header>
+										<div class="content">
+                                            
+                                             <pre><code>
+@font-face {
+  font-family: 'Artos-Light';
+  src: url(Artos-Light.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Artos-Regular';
+  src: url(Artos-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Artos-Medium';
+  src: url(Artos-Medium.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Artos-Black';
+  src: url(Artos-Black.woff2) format('woff2');
+}
+                                            </code></pre>
+                                            <p>Для вебсайта и цифровых материалов всегда применяется формат WOFF2.</p>
+
+										</div>
+									</section>
+                                    
+                                    <!-- CSS letter-spacing Property -->
+									<section>
+										<header>
+											<h3>CSS letter-spacing Property</h3>
+										</header>
+										<div class="content">
+                                            
+                                             <pre><code>
+h1 {
+  font-family: "Artos-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  letter-spacing: -0.1rem;
+}
+h2 {
+  font-family: "Artos-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 2.25rem;
+  letter-spacing: -0.075rem;
+}
+h3 {
+  font-family: "Artos-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: -0.035rem;
+}
+p.major {
+  font-family: "Artos-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: -0.035rem;
+}
+p {
+  font-family: "Artos-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0 <span style="color: #C03">!important;</span>
+}
+p.small {
+  font-family: "Artos-Light", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 0 <span style="color: #C03">!important;</span>
+}
+                                            </code></pre>
+                                            <p>Для нашего шрифта очень важно подбирать правильно размер параметра "letter-spacing". Значение меняется в зависимости от его размера.</p>
+
+										</div>
+									</section>
                                     
                            </div>
                         </div>
@@ -197,12 +270,12 @@
                                             
                                             <h6 class="f_color1">Крупный заголовок или выразительный текст<br>
                                             Medium 72pt ></h6>
-                                            <h1>Корпоративная одежда</h1>
+                                            <h1>Одежда профессионалов, которую любят.</h1>
                                             <hr />
                                             
                                             <h6 class="f_color1">Заголовок или выразительный текст<br>
                                             Medium 37&#8211;72pt</h6>
-                                            <h2>Корпоративная одежда</h2>
+                                            <h2>Одежда профессионалов, которую любят.</h2>
                                             <hr />
                                             
                                             <h6 class="f_color1">Средний текст<br>
