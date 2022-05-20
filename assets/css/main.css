@@ -8733,7 +8733,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color2 {
-			background-color: rgba(16, 16, 16, 1);
+			background-color: rgba(18, 18, 18, 1);
 		}
 
 		#wrapper > .color3 {
@@ -8741,11 +8741,11 @@ input, select, textarea {
 		}
 
 		#wrapper > .color4 {
-			background-color: rgba(239, 239, 239, 1);
+			background-color: rgba(37, 37, 37, 1);
 		}
 
 		#wrapper > .color5 {
-			background-color: #7794ce;
+			background-color: rgba(239, 239, 239, 1);
 		}
 
 		#wrapper > .color6 {
