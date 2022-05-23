@@ -8551,6 +8551,15 @@ input, select, textarea {
 				border-bottom-color: rgba(255, 255, 255, 0.15);
 				padding-bottom: 0;
 			}
+			
+			
+			#wrapper > .invert.color1 hr {
+				border-bottom-color: rgba(255, 255, 255, 0.35);
+			}
+			
+			#wrapper > .invert.color1 a {
+				color: rgba(255, 255, 255, 0.75);
+			}
 
 			#wrapper > .invert .box {
 				border-color: white;
@@ -8810,11 +8819,11 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert .items.style2 {
-				border-color: #6C8096;
+				border-color: rgba(16, 16, 16, 0.2);
 			}
 
 				#wrapper > .invert .items.style2 > * {
-					border-color: #6C8096;
+					border-color: #fff;
 				}
 
 			#wrapper > .invert .index > * {
