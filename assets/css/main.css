@@ -4369,7 +4369,6 @@ input, select, textarea {
 			width: 100%;
 			max-width: 100%;
 			display: block;
-			margin-bottom: 2.5rem;
 			padding: 0 1.5rem 0 1.5rem ;
 			z-index: 1;
 		}
@@ -4429,11 +4428,16 @@ input, select, textarea {
 				border-radius: 0;
 			}
 			
-			.banner.style5 h1 {
-				font-size: 8rem;
-				text-transform: uppercase;
+			.banner.style5 h3 {
+				font-size: 1.3rem;
 				position: absolute;
-			    bottom: 0;
+			    bottom: 1rem;
+			}
+			
+			.banner.style5 h1 {
+				font-size: 7rem;
+				padding-left: 33.333%;
+				display: none;
 			}
 			
 			.banner.style5 .major {
@@ -4445,7 +4449,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style5 {
-				padding: 5rem 2.5rem 3rem 2.5rem ;
+				padding: 0 ;
 			}
 
 		}
@@ -4453,7 +4457,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style5 {
-				padding: 4rem 4rem 2rem 4rem ;
+				padding: 0 ;
 			}
 			
 			.banner.style5 h1 {
@@ -4465,7 +4469,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.banner.style5 {
-				padding: 4.5rem 3rem 2.5rem 3rem ;
+				padding: 0 ;
 			}
 
 		}
@@ -4473,8 +4477,12 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 2.5rem 1rem 0.5rem 1rem ;
+				padding: 0 ;
 			}
+			
+			.banner.style5 .content {
+			    padding: 0 1rem 0 1rem ;
+		}
 			
 			.banner.style5 h1 {
 				font-size: 3.5rem;
