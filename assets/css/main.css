@@ -8261,6 +8261,10 @@ input, select, textarea {
 				padding: 0 ;
 				width: 100%;
 			}
+			
+			.items.style2.small img {
+				width: 70%;
+			}
 
 				.items.style2.small > *:nth-child(-n + 1) {
 					border-top-width: 0;
@@ -8423,7 +8427,7 @@ input, select, textarea {
 	}
 
 	.items.style2 {
-		border-color: #364050);
+		border-color: rgba(0, 0, 0, 0.2);
 	}
 
 		.items.style2 > * {
