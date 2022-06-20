@@ -171,7 +171,7 @@ input, select, textarea {
 		font-family: "Artos-Regular", Helvetica, sans-serif;
 		font-weight: 400;
 		font-size: 1rem;
-		letter-spacing: -0.025rem;
+		letter-spacing: 0;
 		line-height: 1.35;
 	}
 
@@ -221,13 +221,13 @@ input, select, textarea {
 
 	h1 {
 		font-size: 4.35rem;
-		letter-spacing: -0.25rem;
+		letter-spacing: -0.2rem;
 		line-height: 1.05;
 	}
 
 	h2 {
 		font-size: 2.25rem;
-		letter-spacing: -0.075rem;
+		letter-spacing: -0.035rem;
 		line-height: 1.155;
 	}
 	
@@ -235,7 +235,7 @@ input, select, textarea {
 		font-family: "Artos-Regular", Helvetica, sans-serif;
 		font-weight: 400;
 		font-size: 3rem;
-		letter-spacing: -0.075rem;
+		letter-spacing: -0.035rem;
 		line-height: 1.055;
 	}
 
@@ -243,7 +243,7 @@ input, select, textarea {
 		font-family: "Artos-Regular", Helvetica, sans-serif;
 		font-weight: 400;
 		font-size: 1.35rem;
-		letter-spacing: -0.035rem;
+		letter-spacing: -0.02rem;
 		line-height: 1.2;
 	}
 
@@ -251,14 +251,14 @@ input, select, textarea {
 		font-family: "Artos-Regular", Helvetica, sans-serif;
 		font-weight: 400;
 		font-size: 2.5rem;
-		letter-spacing: -0.085rem;
+		letter-spacing: -0.035rem;
 		line-height: 1.15;
 	}
 
 	h5 {
 		font-family: "Artos-Black", Helvetica, sans-serif;
 		font-weight: 900;
-		letter-spacing: -0.1rem;
+		letter-spacing: -0.085rem;
 		font-size: 3rem;
 		line-height: 1;
 	}
@@ -333,7 +333,7 @@ input, select, textarea {
 	}
 	
 	.f_color1 {
-		color: #36afa7;
+		color: #2BB9AF;
 	}
 	
 	.f_color2 {
@@ -348,7 +348,7 @@ input, select, textarea {
 
 		h1 {
 			font-size: 3rem;
-			letter-spacing: -0.2rem;
+			letter-spacing: -0.1rem;
 		}
 
 		h2 {
@@ -8619,7 +8619,7 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:hover,
 					#wrapper > .invert button.primary:hover,
 					#wrapper > .invert .button.primary:hover {
-						background-color: rgba(255, 255, 255, 0.3);
+						background-color: #6ACEC7;
 						color: #101010!important;
 						border-bottom: none;
 					}
@@ -8839,7 +8839,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: rgba(54, 175, 167, 1);
+			background-color: rgba(43, 185, 175, 1);
 		}
 
 		#wrapper > .color2 {
@@ -8847,7 +8847,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color3 {
-			background-color: rgba(54, 175, 167, 0.3);
+			background-color: rgba(43, 185, 175, 0.3);
 		}
 
 		#wrapper > .color4 {
