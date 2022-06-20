@@ -2708,6 +2708,12 @@ input, select, textarea {
 			margin: 0 0 1rem 1.5rem;
 			top: 0.25rem;
 		}
+		
+		.image.fit video {
+			display: block;
+			margin: 0 0 3rem 0;
+			width: 100%;
+		}
 
 		.image.fit {
 			display: block;
