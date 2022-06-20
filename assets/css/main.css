@@ -149,7 +149,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -157,7 +157,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 10pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -347,24 +347,28 @@ input, select, textarea {
 		}
 
 		h1 {
-			font-size: 3rem;
+			font-size: 2.25rem;
 			letter-spacing: -0.1rem;
 		}
 
 		h2 {
-			font-size: 2rem;
+			font-size: 1.75rem;
 		}
 
 		h3 {
-			font-size: 1.35rem;
+			font-size: 1.25rem;
 		}
 
 		h4 {
-			font-size: 1.65rem;
+			font-size: 1.4rem;
+		}
+		
+		p {
+			font-size: 1.1rem;
 		}
 		
 		ul li {
-			font-size: 1rem;
+			font-size: 1.1rem;
 		}
 
 	}
@@ -2830,6 +2834,7 @@ input, select, textarea {
 		ul li.gotop {
 			position: relative;
 			padding-top: 3rem;
+			bottom: 0;
 			left: 0;
 			float: left;
 		}
@@ -4481,11 +4486,15 @@ input, select, textarea {
 			}
 			
 			.banner.style5 .content {
-			    padding: 0 1rem 0 1rem ;
+			    padding: 0 0.5rem 0 0.5rem ;
 		}
 			
 			.banner.style5 h1 {
 				font-size: 3.5rem;
+			}
+			
+			.banner.style5 h3 {
+				font-size: 1.25rem;
 			}
 
 		}
@@ -7429,7 +7438,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 3.5rem 1rem 1rem 1rem ;
+			padding: 0.5rem ;
 		}
 		
 		.wrapper.style1 > .inner .h_text_block {
@@ -8502,13 +8511,13 @@ input, select, textarea {
 			}
 			
 			.index > * > .content {
-				padding: 1rem 0 1rem 0;
+				padding: 0;
 		}
 
 	}
 
 	.index > * {
-		border-top-color: rgba(16, 16, 16, 0.2);
+		border-top-color: rgba(0, 0, 0, 0);
 	}
 
 /* Wrapper */

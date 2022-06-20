@@ -18,7 +18,6 @@
 		#header .logo {
 			border: 0;
 			display: inline-block;
-			font-size: 0.8em;
 			height: inherit;
 			line-height: inherit;
 			padding: 0;
@@ -60,7 +59,7 @@
 				font-size: 1em;
 				height: inherit;
 				line-height: inherit;
-				padding: 1.5rem 0.75em;
+				padding-top: 1.5em;
 				position: relative;
 				vertical-align: middle;
 				color: #fff;
@@ -143,20 +142,16 @@
 
 			#header {
 				height: 2.75em;
-				line-height: 2.75em;
+				line-height: 2em;
 			}
 
-				#header .logo {
-					padding: 0 1em;
-				}
-				
-				#header img {
-			        width: 6rem;
-			        padding: 0 1em;
-		        }
-				
 				#header ul {
 					padding: 0;
+		        }
+				
+				#header ul li {
+					padding: 0;
+					margin-left: 0.5em;
 		        }
 
 				#header nav a {
@@ -176,7 +171,7 @@
 						}
 
 						#header nav a[href="#menu"]:last-child {
-							paddingt: 0 !important;
+							padding-right: 0.5em !important;
 						}
 
 							#header nav a[href="#menu"]:last-child:before, #header nav a[href="#menu"]:last-child:after {
@@ -283,10 +278,9 @@
 						display: block;
 						color: #ffffff;
 		                font-size: 1.15rem;
-						line-height: 1.65rem;
+						line-height: 1.5rem;
 						text-decoration: none;
-						border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-						padding-bottom: 0.2rem;
+						border-bottom: 1px solid rgba(255, 255, 255, 0);
 					}
 					
 					#menu ul.links > li > a:hover {
