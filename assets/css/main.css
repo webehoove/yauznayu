@@ -168,11 +168,14 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
+		-webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
 		font-family: "Artos-Regular", Helvetica, sans-serif;
 		font-weight: 400;
 		font-size: 1rem;
 		letter-spacing: 0;
 		line-height: 1.35;
+
 	}
 
 	a {
@@ -2683,6 +2686,8 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		image-rendering: auto;
+        image-rendering: crisp-edges;
 	}
 
 		.image img {
@@ -2838,12 +2843,20 @@ input, select, textarea {
 			font-size: 0.8rem; 
 		}
 		
+		ul li {
+			margin-bottom: 0.35rem;
+		}
+		
 		ul li.gotop {
 			position: relative;
 			padding-top: 3rem;
 			bottom: 0;
 			left: 0;
 			float: left;
+		}
+		
+		ul li.logo_s img {
+			width: 7rem;
 		}
 		
     }		
