@@ -349,6 +349,7 @@ input, select, textarea {
 		h1 {
 			font-size: 2.25rem;
 			letter-spacing: -0.1rem;
+			margin-top: 2rem;
 		}
 
 		h2 {
@@ -4492,7 +4493,7 @@ input, select, textarea {
 			}
 			
 			.banner.style5 .content {
-			    padding: 0 0.5rem 0 0.5rem ;
+			    padding: 0 0.5rem 0 1rem ;
 		}
 			
 			.banner.style5 h1 {
@@ -4500,7 +4501,7 @@ input, select, textarea {
 			}
 			
 			.banner.style5 h3 {
-				font-size: 1.25rem;
+				font-size: 1.15rem;
 			}
 
 		}
@@ -7444,7 +7445,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.5rem ;
+			padding: 1rem ;
 		}
 		
 		.wrapper.style1 > .inner .h_text_block {

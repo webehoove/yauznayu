@@ -142,7 +142,7 @@
 
 			#header {
 				height: 2.75em;
-				line-height: 2em;
+				line-height: 2.5em;
 			}
 
 				#header ul {
@@ -151,7 +151,7 @@
 				
 				#header ul li {
 					padding: 0;
-					margin-left: 0.5em;
+					margin-left: 1em;
 		        }
 
 				#header nav a {
@@ -171,7 +171,7 @@
 						}
 
 						#header nav a[href="#menu"]:last-child {
-							padding-right: 0.5em !important;
+							padding-right: 1em !important;
 						}
 
 							#header nav a[href="#menu"]:last-child:before, #header nav a[href="#menu"]:last-child:after {
