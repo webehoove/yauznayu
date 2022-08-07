@@ -24,7 +24,8 @@
 		}
 		
 		#header ul {
-			padding: 1.5rem 0 0 33.333%;
+			color: #ffffff;
+			padding: 1rem 0 0 33.333%;
 		}
 		
 		#header ul li {
@@ -59,7 +60,7 @@
 				font-size: 1em;
 				height: inherit;
 				line-height: inherit;
-				padding-top: 1.5em;
+				padding-top: 1em;
 				position: relative;
 				vertical-align: middle;
 				color: #fff;
