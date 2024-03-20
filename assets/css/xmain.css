@@ -1,0 +1,121 @@
+
+		body {
+			background-color: #fff;
+            transition: background-color 1s ease;
+        }
+		#logosymbol {
+			position: relative;
+			float: right;
+			width: 2.5rem;
+			margin-top: 0.2rem;
+		}
+		#logosymbol_b {
+			position: relative;
+			float: left;
+			width: 2.5rem;
+			margin-top: 0.75rem;
+		}
+		#topmenu_logo {
+			margin-top: 0.35rem;
+		}
+		#topmenu {
+			margin-top: 0.5rem;
+		}
+		.submenu {
+			font-size: 1.35rem;
+		}
+		.submenu a {
+			color: rgba(8, 8, 15, 0.5);
+		}
+		.submenu a:hover {
+			color: rgba(8, 8, 15, 1);
+		}
+		.submenu a:active, a:visited:active {
+			color: rgba(8, 8, 15, 0.5);
+		}
+		ul.submenu li {
+			line-height: 1.2;
+			border-bottom: 1px solid rgba(8, 8, 15, 0.2);
+			margin-top: 0.25rem;
+		}
+		.submenu_num {
+			width: 3.5rem;
+			float: left;
+		}
+		.submenu_num2 {
+			width: 3.5rem;
+			float: left;
+		}
+		.menumob {
+			display: none;
+		}
+		.footer-bottom {
+			flex: 1;
+			margin-bottom: 1rem;
+		}
+		.footer-bottom-raster {	
+		    flex: 1;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            gap: 1px;
+            justify-content: space-around;
+  		}
+		.line {
+			display: inline-block;
+			height: 160px;
+			border-left: 1px solid rgba(8, 8, 15, 0.8);
+			margin-right: 2px;
+		}
+        @media screen and (max-width: 1024px) {
+		.submenu_num {
+			width: 3rem;
+		}
+        @media screen and (max-width: 736px) {
+		.logotype {
+			font-size: 1.35rem;
+			padding-top: 0.125rem;
+		}
+		#logosymbol_b {
+			width: 3rem;
+			margin-top: 0.2rem;
+		}
+		.menumob {
+			display: block;
+		}
+		#topmenu_logo {
+			display: none;
+		}
+		#topmenu {
+			font-size: 1rem;
+		}
+		.submenu {
+			font-size: 1rem;
+		}
+		ul.submenu li {
+			line-height: 1.2;
+			border-bottom: 1px solid rgba(8, 8, 15, 0.2);
+			margin-top: 0.25rem;
+		}
+		.submenu_num {
+			width: 50%;
+		}
+		.submenu_num2 {
+			width: 3rem;
+		}
+		ul.spacemenu li {
+			margin-bottom: 0.5rem;
+		}
+		.banner_text {
+			margin-top: 5rem;
+		}
+		.footer-bottom {	
+		    margin-bottom: 1rem;
+		    padding-left: 1rem;
+			padding-right: 1rem;
+		}
+		.line {
+			height: 120px;
+			border-left: 1px solid #08080F;
+			margin-right: 4px;
+		}
