@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="symbol" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F5F1FE;}
+	.st1{fill:#9829E0;}
+</style>
+<rect id="bg" y="0" class="st0" width="1200" height="1200"/>
+<g id="logo">
+	<polygon class="st1" points="569.9,518.3 450,518.3 658.4,709.1 439.9,900 559.8,900 770.8,709.1 	"/>
+	<g>
+		<path class="st1" d="M679.2,300H520.8c-109.7,0-198.7,88.9-198.7,198.7v58.8c0,109.7,88.9,198.7,198.7,198.7h164.9v-92.4H425.3
+			c-6,0-10.8-4.8-10.8-10.8V403.2c0-6,4.8-10.8,10.8-10.8h349.4c6,0,10.8,4.8,10.8,10.8V900h92.4V498.7
+			C877.8,388.9,788.9,300,679.2,300z"/>
+	</g>
+</g>
+</svg>
